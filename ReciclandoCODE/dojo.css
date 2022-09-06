@@ -1,0 +1,100 @@
+/* CSS reset */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+        
+    /* Clase fixed-width container que se "autocentrará" a sí misma */
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    .button3 {
+      background-color: #00eeff;
+      color: white;
+      border-radius: 10%;
+      font-size: larger;
+      border-color: #000000;
+      cursor: pointer;
+      box-shadow: 5px 5px 5px 5px black;
+      display: flex;
+} 
+.bum {
+      display: flex;
+}
+.row{
+      margin: 20px 0;
+      display: flex;
+      flex-direction: row;
+  }
+  div:not(.row){
+      background-color: rgb(33, 129, 129);
+      color: white;
+      margin: 0 10px;
+      padding: 20px;
+  }
+  .col{
+      flex: 1;
+  }
+  .col-2{
+      flex: 2;
+  }
+  .col-3{
+      flex: 3;
+  }
+  .nav {
+      background-color: #333333;
+      display: flex;
+      justify-content: space-between;
+      
+      
+  }
+  
+  .nav-title {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      padding-left: 40px;
+      width: 40px;
+  }
+  
+  .nav-links {
+      
+      list-style: none;
+      color: #FFFFFF;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      width: 600px;
+      margin-right: 40px;
+  }
+  
+  a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  
+  .active {
+      color: #FFFFFF;
+      font-weight: bolder;
+  }
+  
+  .btn {
+  
+      color: white;
+      display: block;
+      background-color: #17A2B8;
+      border: 3px solid black;
+      font-family: 'Roboto', sans-serif;
+      width: 130px;
+      height: 30px;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 30px;
+      font-size: large;
+      box-shadow: 5px 5px 5px black;
+      cursor: pointer;
+  }
